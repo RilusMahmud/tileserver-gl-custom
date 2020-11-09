@@ -1,0 +1,78 @@
+{
+  "options": {
+    "paths": {
+      "root": "/data",
+      "fonts": "fonts",
+      "styles": "styles",
+      "mbtiles": ""
+    },
+    "serveStaticMaps": true,
+    "formatQuality": {
+      "jpeg": 90,
+      "webp": 90
+    },
+    "maxSize": 8192,
+    "pbfAlias": "pbf"
+  },
+  "settings": {
+    "serve": {
+      "vector": true,
+      "raster": false,
+      "services": true,
+      "static": true
+    },
+    "raster": {
+      "format": "PNG_256",
+      "hidpi": 2,
+      "maxsize": 1024
+    },
+    "memcache": {
+      "size": 3.75,
+      "servers": [
+        "localhost:11211"
+      ]
+    }
+  },
+  "styles": {
+    "osm-liberty": {
+      "style": "osm_liberty.json",
+      "tilejson": {
+        "type": "overlay",
+        "bounds": [88.0075,20.3757,92.6805,26.6383]
+      }
+    },
+    "one-map": {
+      "style": "one_map.json",
+      "tilejson": {
+        "type": "overlay",
+        "bounds": [88.0075,20.3757,92.6805,26.6383]
+      }
+    },
+    "custom-apple-maps": {
+      "style": "custom-apple-maps.json",
+      "tilejson": {
+        "type": "overlay",
+        "bounds": [88.0075,20.3757,92.6805,26.6383]
+      }
+    },
+    "barikoi": {
+      "style": "barikoi.json",
+      "tilejson": {
+        "type": "overlay",
+        "bounds": [88.0075,20.3757,92.6805,26.6383]
+      }
+    },
+    "barikoi-custom": {
+      "style": "barikoi-custom.json",
+      "tilejson": {
+        "type": "overlay",
+        "bounds": [90.099993,23.587797,90.698747,23.939716]
+      }
+    }
+  },
+  "data": {
+    "v3": {
+      "mbtiles": "tiles.mbtiles"
+    }
+  }
+}
