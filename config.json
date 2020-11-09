@@ -34,6 +34,13 @@
     }
   },
   "styles": {
+    "barikoi-custom": {
+        "style": "barikoi-custom.json",
+        "tilejson": {
+        "type": "overlay",
+        "bounds": [90.099993,23.587797,90.698747,23.939716]
+      }
+    },
     "osm-liberty": {
       "style": "osm_liberty.json",
       "tilejson": {
@@ -60,13 +67,6 @@
       "tilejson": {
         "type": "overlay",
         "bounds": [88.0075,20.3757,92.6805,26.6383]
-      }
-    },
-    "barikoi-custom": {
-      "style": "barikoi-custom.json",
-      "tilejson": {
-        "type": "overlay",
-        "bounds": [90.099993,23.587797,90.698747,23.939716]
       }
     }
   },

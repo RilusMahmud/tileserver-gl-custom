@@ -1400,7 +1400,7 @@
       "type": "symbol",
       "source": "openmaptiles",
       "source-layer": "office",
-      "minzoom": 14,
+      "minzoom": 12,
       "filter": ["==", "$type", "Point"],
       "layout": {
         "icon-image": "office_11",
