@@ -34,6 +34,13 @@
     }
   },
   "styles": {
+    "basic-preview": {
+        "style": "basic-preview/style.json",
+        "tilejson": {
+        "type": "overlay",
+        "bounds": [90.099993,23.587797,90.698747,23.939716]
+      }
+    },
     "barikoi-custom": {
         "style": "barikoi-custom.json",
         "tilejson": {
